@@ -1,4 +1,4 @@
-#### Register the service app (WebFormsADAuth)
+### Register the service app (WebFormsADAuth)
 
 1. Navigate to the Microsoft identity platform for developers [App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) page.
 1. Select **New registration**.
@@ -23,7 +23,7 @@
    - In the **Delegated permissions** section, ensure that the right permissions are checked: **openid**, **profile**, **User.Read**. Use the search box if necessary.
    - Select the **Add permissions** button
 
-#### Configure the project
+### Configure the project
 
 > Note: if you used the setup scripts, the changes below will have been applied for you
 
@@ -33,6 +33,6 @@
 1. Find the app key `ida:ClientSecret` and replace the existing value with the key you saved during the creation of the `WebFormsADAuth` app, in the Azure portal.
 1. Find the TenantID `ida:TenantId` and Domain `ida:Domain` and replace the existing value with the Tenant ID(directoryid), AD Domain of the `WebFormsADAuth` application copied from the Azure portal.
 
-### Step 5:  Run the sample
+### Run the sample
 
 Clean the solution, rebuild the solution, and run it.
